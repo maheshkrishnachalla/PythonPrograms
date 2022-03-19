@@ -10,6 +10,9 @@ def interest_calculation(principle, time, rate_of_interest=1.5):
     days = time[2]
     compound_interest = 0.0
     total_principle = principle
+    init_interest_per_day = total_principle * rate_of_interest / (100 * 30)
+    print("Initial Interest per day =", init_interest_per_day)
+
     """print("default rate_of_interest = 1.5", end=' ')
     r = input("Please enter Y/N:")[0]
     if r == 'n' or r == 'N':
@@ -61,17 +64,18 @@ def interest_calculation(principle, time, rate_of_interest=1.5):
     print("Interest =", total_interest)
     print("Amount =", amount)
     print("Interest per day from now =", interest_per_day)
-    return total_principle, total_interest, interest_per_day
+    return total_principle, total_interest, interest_per_day, init_interest_per_day
 
 
 total_Principle = 0.0
 total_Interest = 0.0
 total_Amount = 0.0
 total_interest_per_day = 0.0
+total_init_interest_per_day = 0.0
 
 
 def main():
-    global total_Interest, total_interest_per_day, total_Principle, total_Amount
+    global total_Interest, total_interest_per_day, total_Principle, total_Amount, total_init_interest_per_day
     print("Calculations of Interests on ", datetime.now())
     file_path = "interest.csv"
     row = read_data(load_file_path=file_path)
@@ -100,9 +104,12 @@ def main():
         total_Interest = total_Interest + amount[1]
         total_Amount = total_Principle + total_Interest
         total_interest_per_day = total_interest_per_day + amount[2]
+        total_init_interest_per_day = total_init_interest_per_day + amount[3]
 
     print(
         "================================================================================================")
+    print()
+    print("Total Initial Interest_Per_Day on principle {} = {}".format(total_Principle, total_init_interest_per_day))
     print("Total Principle = {}".format(total_Principle))
     print("Total Interest = {}".format(total_Interest))
     print("Total Amount = {}".format(total_Amount))

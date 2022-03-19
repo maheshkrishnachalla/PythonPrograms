@@ -1,9 +1,10 @@
-Calculations of Interests on  2022-03-19 19:34:34.466512
+Calculations of Interests on  2022-03-19 20:02:39.168006
 
 ========================================================================================================
 Amount from person : person_1
 principle = 2000000.0, rate_of_interest = 1.5, start_date = 2022-03-05, end_date = 2022-03-19
 years:0, months:0, days:14 
+Initial Interest per day = 1000.0
 14 days interest = 14000.0
 after 14 days principle = 2014000.0
 ...................................................
@@ -16,6 +17,7 @@ Interest per day from now = 1007.0
 Amount from person : person_2
 principle = 1250000.0, rate_of_interest = 1.5, start_date = 2021-06-01, end_date = 2022-03-19
 years:0, months:9, days:18 
+Initial Interest per day = 625.0
 9 months interest = 168750.0
 after 9 months principle = 1418750.0
 18 days interest = 12768.75
@@ -30,6 +32,7 @@ Interest per day from now = 715.759375
 Amount from person : person_3
 principle = 900000.0, rate_of_interest = 1.5, start_date = 2022-01-01, end_date = 2022-03-19
 years:0, months:2, days:18 
+Initial Interest per day = 450.0
 2 months interest = 27000.0
 after 2 months principle = 927000.0
 18 days interest = 8343.0
@@ -44,6 +47,7 @@ Interest per day from now = 467.6715
 Amount from person : person_4
 principle = 600000.0, rate_of_interest = 1.5, start_date = 2020-05-01, end_date = 2022-03-19
 years:1, months:10, days:18 
+Initial Interest per day = 300.0
 interest of year_1 = 108000.0
 principle after year_1 = 708000.0
 10 months interest = 106200.0
@@ -60,6 +64,7 @@ Interest per day from now = 410.76390000000004
 Amount from person : person_5
 principle = 400000.0, rate_of_interest = 1.5, start_date = 2021-11-01, end_date = 2022-03-19
 years:0, months:4, days:18 
+Initial Interest per day = 200.0
 4 months interest = 24000.0
 after 4 months principle = 424000.0
 18 days interest = 3816.0
@@ -74,6 +79,7 @@ Interest per day from now = 213.908
 Amount from person : person_6
 principle = 150000.0, rate_of_interest = 1.5, start_date = 2021-01-01, end_date = 2022-03-19
 years:1, months:2, days:18 
+Initial Interest per day = 75.0
 interest of year_1 = 27000.0
 principle after year_1 = 177000.0
 2 months interest = 5310.0
@@ -86,6 +92,8 @@ Interest = 33950.79
 Amount = 183950.79
 Interest per day from now = 91.975395
 ================================================================================================
+
+Total Initial Interest_Per_Day on principle 5300000.0 = 2650.0
 Total Principle = 5300000.0
 Total Interest = 514156.33999999997
 Total Amount = 5814156.34
