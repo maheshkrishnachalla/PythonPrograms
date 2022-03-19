@@ -1,0 +1,93 @@
+Calculations of Interests on  2022-03-19 19:01:23.648483
+
+========================================================================================================
+Amount from person : person_1
+principle = 2000000.0, rate_of_interest = 1.5, start_date = 2022-03-05, end_date = 2022-03-19
+years:0, months:0, days:14 
+14 days interest = 14000.0
+after 14 days principle = 2014000.0
+...................................................
+Principle = 2000000.0
+Interest = 14000.0
+Amount = 2014000.0
+Interest per day from now = 1007.0
+
+========================================================================================================
+Amount from person : person_2
+principle = 1250000.0, rate_of_interest = 1.5, start_date = 2021-06-01, end_date = 2022-03-19
+years:0, months:9, days:18 
+9 months interest = 168750.0
+after 9 months principle = 1418750.0
+18 days interest = 12768.75
+after 9 months 18 days principle = 1431518.75
+...................................................
+Principle = 1250000.0
+Interest = 181518.75
+Amount = 1431518.75
+Interest per day from now = 715.759375
+
+========================================================================================================
+Amount from person : person_3
+principle = 900000.0, rate_of_interest = 1.5, start_date = 2022-01-01, end_date = 2022-03-19
+years:0, months:2, days:18 
+2 months interest = 27000.0
+after 2 months principle = 927000.0
+18 days interest = 8343.0
+after 2 months 18 days principle = 935343.0
+...................................................
+Principle = 900000.0
+Interest = 35343.0
+Amount = 935343.0
+Interest per day from now = 467.6715
+
+========================================================================================================
+Amount from person : person_4
+principle = 600000.0, rate_of_interest = 1.5, start_date = 2020-05-01, end_date = 2022-03-19
+years:1, months:10, days:18 
+interest of year_1 = 108000.0
+principle after year_1 = 708000.0
+10 months interest = 106200.0
+after 1 years 10 months principle = 814200.0
+18 days interest = 7327.8
+after 1 years 10 months 18 days principle = 821527.8
+...................................................
+Principle = 600000.0
+Interest = 221527.8
+Amount = 821527.8
+Interest per day from now = 410.76390000000004
+
+========================================================================================================
+Amount from person : person_5
+principle = 400000.0, rate_of_interest = 1.5, start_date = 2021-11-01, end_date = 2022-03-19
+years:0, months:4, days:18 
+4 months interest = 24000.0
+after 4 months principle = 424000.0
+18 days interest = 3816.0
+after 4 months 18 days principle = 427816.0
+...................................................
+Principle = 400000.0
+Interest = 27816.0
+Amount = 427816.0
+Interest per day from now = 213.908
+
+========================================================================================================
+Amount from person : person_6
+principle = 150000.0, rate_of_interest = 1.5, start_date = 2021-01-01, end_date = 2022-03-19
+years:1, months:2, days:18 
+interest of year_1 = 27000.0
+principle after year_1 = 177000.0
+2 months interest = 5310.0
+after 1 years 2 months principle = 182310.0
+18 days interest = 1640.79
+after 1 years 2 months 18 days principle = 183950.79
+...................................................
+Principle = 150000.0
+Interest = 33950.79
+Amount = 183950.79
+Interest per day from now = 91.975395
+================================================================================================
+Total Principle = 5300000.0
+Total Interest = 514156.33999999997
+Total Amount = 5814156.34
+...........................................................................................
+Interest_Per_Day from now on Amount 5814156.34 = 2907.07817
