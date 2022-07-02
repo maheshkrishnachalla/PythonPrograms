@@ -1,4 +1,5 @@
 def read_data(load_file_path):
+    # reads the data from the file in the path
     read_list = list()
     for line in open(load_file_path):
         csv_row = line.split()
